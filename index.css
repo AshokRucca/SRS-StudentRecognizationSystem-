@@ -191,7 +191,7 @@ section figure p{
     color:orangered;
 }
 @media (max-width: 768px) {
-    .container {
+    body {
         width: 100%;
     }
 }
