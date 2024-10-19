@@ -190,3 +190,8 @@ section figure p{
     background-color: #222;
     color:orangered;
 }
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+}
