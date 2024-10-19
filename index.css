@@ -1,0 +1,192 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+background-color:rgb(30,30,40);
+
+
+}
+
+body h1{
+    padding:20px;
+    padding-left:40px;
+    justify-items:center;
+    margin-left:500px;
+    font-family:Poppins;
+    color:brown;
+    transition:.3s;
+}
+h1:hover{
+    font-size:40px;
+    color:black;
+    transition:.4s
+}
+ 
+
+  nav{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left:10%;
+    padding-right:10%;
+    margin-right: 20px;
+    font-family: Poppins;
+}
+
+.logo{
+    color:orangered;
+    font-size:25px;
+}
+
+nav ul li{
+     list-style-type:none;
+     display:inline-block;
+     padding:10px 20px;
+}
+
+nav ul li a{
+    color:orangered;
+    text-decoration: none;
+    font-weight:bold;
+    transition:.3s;
+}
+nav ul li a:hover{
+    color:orangered;
+    transition: .3s;
+   font-size:15px;
+}
+.image1{
+    display:block;
+   margin-left:auto;
+   margin-right:auto;
+   width: 50%;
+}
+
+.our-packages figure button{
+    position: relative;
+    display: inline-block;
+    margin: 15px;
+    margin-top: 30px;
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color:orangered;
+    background: transparent;
+    cursor: pointer;
+    transition: ease-out 0.5s;
+    border: 2px solid orangered;
+    border-radius: 10px;
+    box-shadow: inset 0 0 0 0 orangered;
+}
+.our-packages figure button:hover {
+    color: white;
+    box-shadow: inset 0 -100px 0 orangered;
+  }
+  
+  .our-packages figure button:active {
+    transform: scale(0.9);
+
+  }
+  .our-packages figure button::after{
+     position: relative;
+    display: inline-block;
+    margin: 15px;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color:white;
+    background: transparent;
+    cursor: pointer;
+    transition: ease-out 0.5s;
+    border: 2px solid orangered;
+    border-radius: 10px;
+    box-shadow: inset 0 0 0 0 orangered;
+
+  }
+
+section figure{
+    box-shadow:0 0 13px orangered;
+    width:300px;
+    display:inline-block;
+    padding:10px 10px;
+    background-color: floralwhite;
+    margin-top:50px;
+    margin:20px;
+    border:2px solid orangered;
+    border-radius:10px;
+}
+section figure img{
+    width: 100%;
+    margin:auto;
+}
+section figure figcaption{
+    font-size:20px;
+}
+section figure p{
+    font-size:18px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.h1{
+    font-size:60px;
+    margin-top:20px;
+}
+
+.h1:hover{
+    font-size:60px ;
+    color:orangered;
+}
+
+.footer {
+    background-color:black;
+    color: white;
+    padding: 40px ;
+    margin-top:10%;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+
+.footer-section h4 {
+    margin-bottom: 10px;
+}
+
+.footer-section p,
+.footer-section ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-section a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #222;
+    color:orangered;
+}
