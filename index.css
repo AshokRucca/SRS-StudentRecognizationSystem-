@@ -120,6 +120,7 @@ section figure{
     margin:20px;
     border:2px solid orangered;
     border-radius:10px;
+    margin-right:30px;
 }
 section figure img{
     width: 100%;
